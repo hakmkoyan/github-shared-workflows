@@ -1,0 +1,15 @@
+name: Build
+
+on:
+  workflow_call:
+
+jobs:
+  build-push:
+    steps:
+      - name: Build
+        run: |
+          echo build
+
+      - name: Push
+        run: |
+          echo push

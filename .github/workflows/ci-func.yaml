@@ -5,6 +5,9 @@ on:
 
 jobs:
   build-push:
+    name: Build & Push
+    runs-on: ubuntu-latest 
+    
     steps:
       - name: Build
         run: |
